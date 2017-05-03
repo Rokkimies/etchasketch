@@ -1,0 +1,31 @@
+#wrapper{
+display: table;
+  width: 160px;
+  height: 160px;
+  padding: 0px;
+
+
+}
+
+#pixel{
+  display:table-cell;
+  background-color: black;
+  height: 10px;
+  width: 10px;
+  margin: 0px;
+  border: 0px;
+}
+
+#table-row{
+  height: 10px;
+  border: 0px;
+  margin: 0px,auto;
+  border: 0px;
+}
+
+body{
+  /*display:inline-block;*/
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
