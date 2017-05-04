@@ -23,9 +23,9 @@ function refresh(){
 function draw(size){
 
   for (var i = 0; i< size; i++){
-    var row = $("<div class='table-row'></div>").appendTo("#etchWrapper");
+    var row = $("<div class='table-row'></div>").css("height", 300/size).appendTo("#etchWrapper");
     for(var x = 0; x< size; x++){
-      $("<div class='pixel'></div>").appendTo(row);}}
+      $("<div class='pixel'></div>").css("height", 300/size).css("width", 300/size).appendTo(row);}}
 
   $("div.pixel").mouseenter(function(){
     $(this).css("background-color","green");})
