@@ -1,13 +1,27 @@
-#wrapper{
-display: table;
-  width: 160px;
-  height: 160px;
-  padding: 0px;
-
-
+#etchCenter{
+  display: flex;
+  justify-content: center;
 }
 
-#pixel{
+#etchWrapper{
+display: table;
+
+  width: 300px;
+  height: 300px;
+  padding: 0px;
+}
+
+#buttonWrap{
+  display: flex;
+  justify-content: center;
+}
+
+#button{
+  color: black;
+  height: 30px;
+}
+
+.pixel{
   display:table-cell;
   background-color: black;
   height: 10px;
@@ -16,7 +30,7 @@ display: table;
   border: 0px;
 }
 
-#table-row{
+.table-row{
   height: 10px;
   border: 0px;
   margin: 0px,auto;
